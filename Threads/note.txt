@@ -36,7 +36,7 @@ Modern processors have multiple cores, and threads allow applications to run tas
 
  6. Performing Asynchronous Operations
 Threads enable asynchronous execution, meaning that a program can perform other tasks while waiting for I/O operations to complete.
-- Example: Reading from a file or network socket without blocking the main application flow.
+- Example: Reading from a file / network socket without blocking the main application flow.
 
 ---
 
