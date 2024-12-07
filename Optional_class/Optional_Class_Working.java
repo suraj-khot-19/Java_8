@@ -6,13 +6,13 @@ public class Optional_Class_Working {
     /// 1 case
     public static Optional<String> getName(){
         String name=null;
-        return Optional.ofNullable(name);
+        return Optional.ofNullable(name); //means it will check for null
     }
 
     /// 2 case
     public static Optional<String> sendName(){
         String name="Ram";
-        return Optional.of(name);
+        return Optional.of(name); //it will not check for null it will throw error if null value get when we sure about it (must not return null) then it will used
     }
 
     public static void main(String[] args) {
