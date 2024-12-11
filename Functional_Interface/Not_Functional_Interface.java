@@ -1,4 +1,4 @@
-package Functional_Interface.note;
+package Functional_Interface;
 
 /// Multiple non-overriding abstract methods found in interface Functional_Interface. note. NotFunctionalInterface
 

@@ -1,4 +1,4 @@
-package Functional_Interface.note;
+package Functional_Interface;
 
 @FunctionalInterface
 interface MyFunctionalInterfaceUsage{
