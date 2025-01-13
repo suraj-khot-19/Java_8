@@ -1,9 +1,9 @@
-package Functional_Reference;
+package Method_Reference;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class Function_Reference_java_8 {
+public class Method_Reference_1 {
     public static void printing(int i){
         System.out.println(i);
     }
@@ -11,6 +11,6 @@ public class Function_Reference_java_8 {
     public static void main(String[] args) {
         List<Integer> list= Arrays.asList(1,2,3,4,5,6,7);
 
-        list.forEach(Function_Reference_java_8::printing);
+        list.forEach(Method_Reference_1::printing);
     }
 }
