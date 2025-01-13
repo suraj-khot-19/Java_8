@@ -5,6 +5,7 @@ Useful for representing a date like a birthday or an anniversary.
  */
 
 package New_Date_And_Time_classes;
+
 import java.time.LocalDate;
 
 public class New_Local_Date {
@@ -25,8 +26,13 @@ public class New_Local_Date {
             System.out.println("Not a leap year");
         }
 
-        //custom data
-        LocalDate customDate=LocalDate.of(2001,8,19);
-        System.out.println("birthday using custom date "+customDate);
+        /// custom data
+        LocalDate customDate = LocalDate.of(2001, 8, 19);
+        System.out.println("birthday using custom date " + customDate);
+
+        /// minus
+        System.out.println(today.minusDays(55));
+        /// plus
+        System.out.println(today.plusYears(5));
     }
 }
