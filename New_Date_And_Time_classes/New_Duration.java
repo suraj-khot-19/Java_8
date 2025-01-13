@@ -12,5 +12,12 @@ public class New_Duration {
         LocalDateTime now = LocalDateTime.now();
         Duration age = Duration.between( myBD,now);
 
+        System.out.println(age);
+
+        System.out.println("Days:"+age.toDays());
+
+        System.out.println(now.compareTo(myBD)); // 24 years
+        System.out.println(myBD.compareTo(now)); // - 24 years
+
     }
 }
