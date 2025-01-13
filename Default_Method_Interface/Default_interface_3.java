@@ -10,14 +10,18 @@ interface y{
     }
 }
 
+
+/*
 class MyClass implements x, y {
     //Default_Method_Interface. MyClass inherits unrelated defaults for sayHello() from types Default_Method_Interface. x and Default_Method_Interface. y
 
     //Ambiguity due to same default method names
 }
+ */
+
 public class Default_interface_3 {
     public static void main(String[] args) {
-        MyClass obj=new MyClass();
-        obj.sayHello();
+//        MyClass obj=new MyClass();
+//        obj.sayHello();
     }
 }
