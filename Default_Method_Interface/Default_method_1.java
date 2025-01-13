@@ -1,7 +1,7 @@
 package Default_Method_Interface;
 
 interface parent{
-    default void sayHello(){ // default means it having a body
+    default void sayHello(){          // default means it having a body
         System.out.println("Interface saying hello!");
     }
 }
