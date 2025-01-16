@@ -10,4 +10,4 @@ Key Features of Optional:
 - Functional Programming Style: Use methods like map, flatMap, filter, etc.
 - Readable and Safe Code: Makes the code self-explanatory.
 
-optional is like a box we are adding(predicting value will be null) into it and returning it
+optional is like a box we are adding(predicting value will be null/ coming from Db) into it and returning it
