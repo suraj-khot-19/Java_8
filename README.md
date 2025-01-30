@@ -7,7 +7,8 @@ I am exploring and implementing the following key features of Java 8:
 - ✅ **Lambda Expressions**  
 - ✅ **Functional Interfaces**  
 - ✅ **Streams API**  
-- ✅ **Default and Static Methods in Interfaces**  
+- ✅ **Default in Interfaces**
+- ✅ **Static Methods in Interfaces**  
 - ✅ **Optional Class**  
 - ✅ **Method References**  
 - ✅ **Collectors and Grouping**  
